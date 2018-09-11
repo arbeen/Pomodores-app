@@ -1,0 +1,52 @@
+.header {
+    padding: 30px;
+}
+
+.buttons {
+    text-align: center;
+}
+
+.text-center {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.round-button {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid #f5f5f5;
+    overflow: hidden;
+    background: #303030;
+    box-shadow: 0 0 3px gray;
+    text-align: center;
+    align-self: center;
+}
+
+.right-part {
+    margin-left: 25%;
+}
+
+.jumbotron {
+    width: 70%;
+    margin: auto;
+}
+
+.round-button:hover {
+    background: #262626;
+    cursor: pointer;
+}
+
+.round-button:active {
+    background: #202020;
+}
+
+.round-button .button-text {
+    display: inline-block;
+    font-size: 40px;
+    padding-top: 65px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
